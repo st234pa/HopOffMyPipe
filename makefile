@@ -4,3 +4,9 @@ server client: pipe_networking.c server.c client.c
 
 clean:
 	rm *~x
+
+runs: server
+	./server
+
+runc: client
+	./client
